@@ -1,0 +1,41 @@
+{
+  "name": "jest-intro-workshop",
+  "version": "1.0.0",
+  "description": "Assembler School: Jest Intro Workshop",
+  "keywords": [
+    "es6",
+    "jest"
+  ],
+  "author": "Dani Lucaci <dani@assemblerschool.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "test:coverage": "jest --collectCoverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assembler-school/jest-intro-workshop.git"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.10",
+    "axios": "^0.21.0",
+    "bootstrap": "^5.0.0-beta1",
+    "jquery": "^3.6.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.11",
+    "@types/jest": "^26.0.19",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.15.0",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.6",
+    "parcel": "^2.0.0-beta.1",
+    "prettier": "2.2.1"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
